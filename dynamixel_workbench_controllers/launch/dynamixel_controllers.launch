@@ -1,5 +1,5 @@
 <launch>
-  <arg name="usb_port"                default="/dev/ttyUSB0"/>
+  <arg name="usb_port"                default="/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A50285BI-if00-port0"/>
   <arg name="dxl_baud_rate"           default="57600"/>
   <arg name="namespace"               default="dynamixel_workbench"/>
 
