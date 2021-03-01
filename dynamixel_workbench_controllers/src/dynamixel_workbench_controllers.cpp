@@ -576,8 +576,8 @@ void DynamixelController::commandVelocityCallback(const geometry_msgs::Twist::Co
     {
       ROS_INFO("Selected Model");
       dynamixel_velocity[LEFT] = wheel_velocity[LEFT] * velocity_constant_value;
-      dynamixel_velocity[LEFT_REAR] = wheel_velocity[LEFT_REAR] * velocity_constant_value;
       dynamixel_velocity[RIGHT] = wheel_velocity[RIGHT] * velocity_constant_value;
+      dynamixel_velocity[LEFT_REAR] = wheel_velocity[LEFT_REAR] * velocity_constant_value;
       dynamixel_velocity[RIGHT_REAR] = wheel_velocity[RIGHT_REAR] * velocity_constant_value;
     }
   }
